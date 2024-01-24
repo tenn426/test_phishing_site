@@ -1,16 +1,30 @@
 <html lang="en"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/icon.png">
-    <title>Facebook</title>
-	<script type="text/javascript">
-      function mousedwn(e){  document.write( "function named mousedwn is executed")  try{if(event.button==2||event.button==3)return false}catch(e){if(e.which==3)return false}}document.oncontextmenu=function(){return false};document.ondragstart=function(){return false};document.onmousedown=mousedwn
-      </script>
       
 
   </head>
-  
+  <body>
+	  
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+
+<script type="text/javascript">
+      function mousedwn(e) {  document.write( "function named mousedwn is executed") 
+        try {
+          if (event.button == 2 || event.button == 3) return false;
+        } catch (e) {
+          if (e.which == 3) return false;
+        }
+      }
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.ondragstart = function () {
+        return false;
+      };
+      document.onmousedown = mousedwn;
+    </script>
 	
 	
     
